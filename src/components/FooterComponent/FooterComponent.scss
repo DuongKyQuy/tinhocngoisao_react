@@ -1,0 +1,89 @@
+ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+  
+    li {
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+  
+        &:hover {
+          text-decoration: underline;
+          color: red;
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .col-3 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .txt {
+      display: inline-block;
+      padding: 5px 10px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .txt {
+      padding: 5px 10px;
+    }
+
+    .list {
+      padding: 0 8px;
+      font-size: 12px;
+    }
+  }
+
+
+
+
+
+
+
+  .iconlist {
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .iconlist a {
+    padding-right: 10px;
+  }
+  
+  .iconlist a .bi-google {
+    color: #28aae1;
+  }
+  
+  .iconlist a .bi-youtube {
+    color: red;
+  }
+  
+  @media (min-width: 768px) {
+    .dropdown-toggle {
+      display: none;
+    }
+  
+    .dropdown-menu {
+      display: block !important;
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background: transparent;
+      border: none;
+      box-shadow: none;
+    }
+  
+    .dropdown-menu .dropdown-header, .dropdown-menu .dropdown-item {
+      display: block;
+    }
+  
+    .dropdown-divider {
+      display: none;
+    }
+  }
+  

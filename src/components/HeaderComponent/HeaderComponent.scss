@@ -1,0 +1,11 @@
+.dropdown-item {
+    &.specific-class {
+      &:hover {
+        color: red;
+        padding-left: 15px;
+        
+      }
+    }
+  }
+  
+  

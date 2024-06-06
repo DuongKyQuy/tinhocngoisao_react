@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .col-6, .col-3 {
+      flex: 1 1 100%;
+    }
+    .col-3 {
+      margin-left: 0;
+    }
+    .col-6 {
+      margin-bottom: 20px;
+    }
+  }
+  
